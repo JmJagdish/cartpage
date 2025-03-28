@@ -1,0 +1,153 @@
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#main > div {
+  height: 600px;
+}
+
+#heading {
+  display: flex;
+  flex-direction: row;
+  width: 343px;
+  border: 0.9px;
+  margin-top: 39px;
+  margin-left: 29px;
+}
+
+#heading:before,
+#heading:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #000;
+  margin: auto;
+}
+
+h2 {
+  padding: 5px;
+  margin: 0%;
+  color: #ff6b82;
+}
+
+h4 {
+  margin: 0%;
+  font-weight: 100;
+}
+
+#inputbtn {
+  margin-right: 10px;
+}
+.unit {
+  display: flex;
+  justify-content: center;
+}
+.discount {
+  width: fit-content;
+  height: 17;
+  border: none;
+  text-align: center;
+  color: white;
+  background-color: #ff6b82;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.hight-light {
+  display: flex;
+  justify-content: end;
+}
+
+#popular {
+  width: fit-content;
+  text-align: center;
+  color: white;
+  padding: 4px;
+  background-color: #ff6b82;
+  margin: 0%;
+}
+
+p {
+  color: gray;
+}
+h6 {
+  text-decoration: line-through;
+  font-size: small;
+  color: gray;
+  margin: 0%;
+  font-weight: 100;
+}
+
+.card {
+  min-height: 74.11px;
+  border: 3px solid rgb(112, 119, 112);
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px;
+}
+
+.card:hover {
+  background-color: rgb(225, 244, 247);
+  border: 3px solid #ff6b82;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.innerdiv1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  display: none;
+  align-items: center;
+  margin: 10px 10px 10px 20px;
+}
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: fit-content;
+}
+.data > div {
+  margin-left: 5px;
+}
+.data > div > div {
+  margin-top: 10px;
+}
+
+.selectbox {
+  border: 1px solid gray;
+  padding: 4px 8px;
+  width: 100%;
+  color: rgb(12, 11, 11);
+  font-size: 15px;
+}
+
+#total {
+  width: 341px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+#btn {
+  width: 341px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  background-color: #ff6b82;
+  color: white;
+}
